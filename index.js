@@ -18,7 +18,7 @@ function get_gh_repo(package) {
 	repo_field = "";
     }
     repo = repo_field
-	.replace(/^[\s\S]*https?:\/\/github\.com\/([^\/]+\/[^\/, ]+)\/?[\s\S]*$/m, '$1');
+	.replace(/^[\s\S]*https?:\/\/github\.com\/([^\/]+\/[^\/, <]+)\/?[\s\S]*$/m, '$1');
     return repo;
 }
 
