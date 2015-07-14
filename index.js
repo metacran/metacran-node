@@ -2,7 +2,8 @@
 var fixed_gh_repos = {
     'RVowpalWabbit': 'eddelbuettel/rvowpalwabbit',
     'htmlwidgets': 'ramnathv/htmlwidgets',
-    'DiagrammeR': 'rich-iannone/DiagrammeR'
+    'DiagrammeR': 'rich-iannone/DiagrammeR',
+    'visNetwork': 'dataknowledge/visNetwork'
 }
 
 function get_gh_repo(package) {
